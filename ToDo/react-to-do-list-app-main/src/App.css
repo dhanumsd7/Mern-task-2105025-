@@ -1,0 +1,78 @@
+::-webkit-scrollbar{
+  display: none;
+}
+.back{
+  margin: -1rem;
+  height: 100vh;
+  justify-content:ce;
+  width: auto;
+  padding-top: 5rem;
+  /* background-image: linear-gradient(to right, rgba(223, 15, 15, 0), rgb(25, 29, 23)); */
+  background-image: url(./assets/do.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: bold;
+}
+h1{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.app1{
+  display: flex;
+  height: auto;
+  padding-bottom: 1rem;
+  justify-content: center;
+  flex-grow: 1;
+
+}
+.todo-list{
+  align-items: center;
+  justify-content: center;
+  background-color:transparent;
+  height: auto;
+  padding: 20px;
+}
+.todo-siva{
+  justify-content: center;
+  padding: 2rem;
+}
+.todo-item {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 13rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  height: 4rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+ }
+ .todo-item p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .cancel{
+  margin-top: 1.5rem;
+  margin-right: 0.125rem;
+  height: 1.5rem;
+  width: auto;  
+ }
+ .add{
+  margin-left: 25%;
+  margin-top: 10px;
+  padding: 15px;
+
+ }
+ .add:hover{
+  background-color: bisque;
+  color: black;
+ }
+ .cancel:hover{
+  background-color: red;
+ }
+.a{
+  padding: 20px;
+  border-radius: 10px;
+}
